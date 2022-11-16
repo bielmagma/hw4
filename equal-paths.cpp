@@ -65,9 +65,9 @@ int helper(Node * root){
 
 	temp = helper(root->right);
 
-		if(temp == 0){
-			return 0;
-		}
+	if(temp == 0){
+		return 0;
+	}
 
   y += temp; // y == 
   
